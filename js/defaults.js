@@ -31,5 +31,25 @@ export const defaults = {
   "newTabLabels": {
     "en": "{name} (opens in a new tab)",
     "ar": "{name} (يفتح في تبويب جديد)"
+  },
+  "developerClassName": "developer-credit",
+  "creditsClassName": "footer-credits",
+  "showDeveloper": "auto",
+  "developer": {
+    "name": {
+      "en": "Codava",
+      "ar": "كودافا"
+    },
+    "url": "https://codava.io",
+    "logo": {
+      "light": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
+      "dark": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
+      "width": 44,
+      "height": 24
+    }
+  },
+  "developerTemplates": {
+    "en": "Developed by: {logo}",
+    "ar": "تطوير: {logo}"
   }
 }
