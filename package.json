@@ -1,0 +1,20 @@
+{
+  "name": "@codavaio/copyright-badge",
+  "version": "1.0.0",
+  "description": "A small footer copyright line with a linked logo, in Arabic and English, for any website.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./js/index.js",
+  "types": "./js/index.d.ts",
+  "exports": {
+    ".": { "types": "./js/index.d.ts", "default": "./js/index.js" }
+  },
+  "files": ["js", "README.md", "LICENSE"],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test tests/js/*.test.mjs"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/codavaio/copyright-badge.git" },
+  "keywords": ["copyright", "footer", "badge", "i18n", "arabic", "rtl", "laravel", "blade"],
+  "engines": { "node": ">=18" }
+}
