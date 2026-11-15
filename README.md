@@ -14,12 +14,13 @@ It ships twice from one repository, with the same options and the same output:
 - a PHP renderer with a Laravel Blade component.
 
 Out of the box it prints the Codava credit. Every part can be overridden, so you can use it for your own
-company: name, link, logo, text, year range, colours of the logo and the CSS class.
+company: name, link, logo, text, year range, colours of the logo and the CSS class. It can also print a
+"Developed by" line next to the owner's copyright, driven by environment variables.
 
 ## JavaScript
 
 ```sh
-npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.0.2.tar.gz
+npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.1.0.tar.gz
 ```
 
 ```js
@@ -60,7 +61,7 @@ nearest `lang` attribute when `locale` is not set.
 ```
 
 Element attributes: `locale`, `theme`, `year`, `start-year`, `template`, `owner-name`, `owner-url`, `logo`,
-`logo-dark`, `logo-width`, `logo-height`, `same-tab`.
+`logo-dark`, `logo-width`, `logo-height`, `same-tab`, and `credits` to print both lines.
 
 ## Laravel / PHP
 
@@ -79,7 +80,8 @@ composer require codavaio/copyright-badge
 <x-copyright-badge theme="dark" :start-year="2024" />
 ```
 
-The component uses the application locale. Site-wide overrides live in a config file:
+The components use the application locale and read site-wide options from `.env` (see below). Publish the
+config file only for what the environment cannot express, such as a custom template:
 
 ```sh
 php artisan vendor:publish --tag=copyright-badge-config
@@ -93,6 +95,55 @@ use Codava\CopyrightBadge\CopyrightBadge;
 echo CopyrightBadge::render(['locale' => 'ar', 'year' => 2026]);
 ```
 
+## Owner copyright and developer credit
+
+For a product built for someone else, show the owner's copyright on one side and the developer on the other:
+
+```
+All rights reserved Acme Trading © 2026                    Developed by: [Codava logo]
+```
+
+```js
+import { optionsFromEnv, renderCredits } from '@codavaio/copyright-badge'
+
+footer.innerHTML = renderCredits({ ...optionsFromEnv(import.meta.env), locale: 'en' })
+```
+
+```blade
+<x-footer-credits />
+```
+
+`renderDeveloperCredit` / `<x-developer-credit />` print the developer line alone, and
+`renderCopyrightBadge` / `<x-copyright-badge />` the copyright alone, so you can place them anywhere.
+
+The owner is printed as a logo when a logo is set, otherwise as a name (linked when a URL is set). The
+developer line is shown only when the owner is someone other than the developer; force it with
+`showDeveloper: true` or hide it with `false`.
+
+### Environment variables
+
+Laravel reads these from `.env` with the `COPYRIGHT_` prefix. In a Vite project use the `VITE_COPYRIGHT_`
+prefix and `optionsFromEnv(import.meta.env)`; pass another prefix as the second argument if you need one.
+
+| Variable (after the prefix) | Meaning |
+| --- | --- |
+| `OWNER_NAME`, `OWNER_NAME_AR` | Owner name in English and Arabic. Setting a name makes the owner a company of its own. |
+| `OWNER_URL` | Where the owner's name or logo links to. |
+| `OWNER_LOGO`, `OWNER_LOGO_DARK` | Logo images for light and dark backgrounds. Without them the name is printed. |
+| `OWNER_LOGO_WIDTH`, `OWNER_LOGO_HEIGHT` | Logo size in pixels. |
+| `DEVELOPER_NAME`, `DEVELOPER_NAME_AR`, `DEVELOPER_URL`, `DEVELOPER_LOGO`, … | The same keys for the developer; the default is Codava. |
+| `SHOW_DEVELOPER` | `true`, `false` or `auto` (the default). |
+| `START_YEAR` | First year of the range. |
+| `THEME` | `light`, `dark` or `auto`. |
+
+```dotenv
+COPYRIGHT_OWNER_NAME="Acme Trading"
+COPYRIGHT_OWNER_NAME_AR="أكمي للتجارة"
+COPYRIGHT_OWNER_URL=https://acme.example
+COPYRIGHT_OWNER_LOGO=https://acme.example/logo.png
+COPYRIGHT_START_YEAR=2025
+```
+
 ## Options
 
 | Option | Default | Meaning |
@@ -101,30 +152,19 @@ echo CopyrightBadge::render(['locale' => 'ar', 'year' => 2026]);
 | `theme` | `light` | `light` shows the logo for light backgrounds, `dark` the one for dark backgrounds, `auto` follows the visitor's colour-scheme preference. |
 | `year` | current year | |
 | `startYear` | none | Prints a range such as `2024–2026`. |
-| `template` | see above | Text with `{year}`, `{logo}`, `{name}` and your own `values`. One string, or one per locale. Leave `{logo}` out for a text-only line. |
-| `values` | none | Extra placeholders for the template, for example `{ product: 'Hasoobi' }`. |
-| `owner.name` | Codava / كودافا | Alternative text of the logo. One string, or one per locale. |
-| `owner.url` | `https://codava.io` | Where the logo links to. |
-| `owner.logo` | Codava wordmark | `light`, `dark`, `width`, `height`. |
-| `newTab` | `true` | Opens the link in a new tab with `rel="noopener noreferrer"` and says so to screen readers. |
+| `template` | see above | Copyright text with `{year}`, `{logo}`, `{name}` and your own `values`. One string, or one per locale. Leave `{logo}` out to drop the name or logo. |
+| `developerTemplate` | `Developed by: {logo}` | Text of the developer line. |
+| `values` | none | Extra placeholders for the templates, for example `{ product: 'Hasoobi' }`. |
+| `owner` | Codava | `name`, `url`, `logo` (`light`, `dark`, `width`, `height`). A name of your own drops the default logo and link. |
+| `developer` | Codava | The same shape as `owner`. |
+| `showDeveloper` | `auto` | Whether `renderCredits` includes the developer line. |
+| `newTab` | `true` | Opens links in a new tab with `rel="noopener noreferrer"` and says so to screen readers. |
 | `newTabLabel` | built in | Accessible name of the link, with `{name}`. |
-| `className` | `copyright-badge` | Class of the wrapping `<span>`. |
-| `styles` | `true` | Set to `false` to drop the two inline alignment styles and style it yourself. |
+| `className`, `developerClassName`, `creditsClassName` | `copyright-badge`, `developer-credit`, `footer-credits` | Classes of the wrapping elements. |
+| `styles` | `true` | Set to `false` to drop the inline layout styles and style it yourself. |
 
-### Using it for your own company
-
-```js
-renderCopyrightBadge({
-  locale: 'en',
-  startYear: 2021,
-  template: { en: '© {year} {logo} · Made in Riyadh', ar: '© {year} {logo} · صُنع في الرياض' },
-  owner: {
-    name: { en: 'Your Company', ar: 'شركتك' },
-    url: 'https://example.com',
-    logo: { light: 'https://example.com/logo.png', dark: 'https://example.com/logo-white.png', width: 40, height: 18 },
-  },
-})
-```
+In PHP the same keys go into the array given to `CopyrightBadge::render()`, `renderDeveloper()` and
+`renderCredits()`, or as attributes on the Blade components.
 
 ## Development
 

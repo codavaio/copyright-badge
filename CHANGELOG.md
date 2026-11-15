@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.1.0
+
+- "Developed by" line (`renderDeveloperCredit`, `<x-developer-credit />`) and both lines side by side
+  (`renderCredits`, `<x-footer-credits />`); the developer line shows by itself when the owner is someone else.
+- An owner or developer can be a plain name, a linked name or a logo.
+- Options can come from the environment: `COPYRIGHT_*` in Laravel, `VITE_COPYRIGHT_*` through `optionsFromEnv`.
+- A logo without a known width keeps its proportions at the default height.
+
 ## 1.0.2
 
 - The default text now reads "All rights reserved", then the logo, then © and the year.
