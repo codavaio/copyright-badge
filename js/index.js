@@ -23,14 +23,16 @@ function buildParts(party, template, options, className) {
   const theme = options.theme ?? defaults.theme
   const name = localized(party.name, locale)
   const year = options.year ?? new Date().getFullYear()
-  const years = options.startYear && Number(options.startYear) < Number(year) ? `${options.startYear}–${year}` : String(year)
+  const rtl = defaults.rtlLocales.includes(locale)
+  // Isolated as left-to-right so a range keeps its order inside right-to-left text.
+  const years = options.startYear && Number(options.startYear) < Number(year) ? (rtl ? `\u2066${options.startYear}–${year}\u2069` : `${options.startYear}–${year}`) : String(year)
   const [before, ...rest] = fill(localized(template, locale), { ...options.values, year: years, name }).split('{logo}')
   const newTab = options.newTab ?? defaults.newTab
   const light = party.logo?.light, dark = party.logo?.dark ?? light
 
   return {
     locale,
-    dir: defaults.rtlLocales.includes(locale) ? 'rtl' : 'ltr',
+    dir: rtl ? 'rtl' : 'ltr',
     className,
     styles: options.styles ?? defaults.styles,
     year: years,
