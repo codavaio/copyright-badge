@@ -25,8 +25,8 @@ export const defaults = {
     }
   },
   "templates": {
-    "en": "© {year} {logo} · All rights reserved",
-    "ar": "© {year} {logo} · جميع الحقوق محفوظة"
+    "en": "All rights reserved {logo} © {year}",
+    "ar": "جميع الحقوق محفوظة {logo} © {year}"
   },
   "newTabLabels": {
     "en": "{name} (opens in a new tab)",

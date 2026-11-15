@@ -1,6 +1,6 @@
 {
   "name": "@codavaio/copyright-badge",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small footer copyright line with a linked logo, in Arabic and English, for any website.",
   "license": "MIT",
   "type": "module",
