@@ -1,11 +1,11 @@
 # copyright-badge
 
-A small copyright line for the footer of a website: the year, a tiny linked logo that opens in a new tab,
-and "All rights reserved", in Arabic and English.
+A small copyright line for the footer of a website: "All rights reserved", a tiny linked logo that opens in a new tab,
+and the year, in Arabic and English.
 
 ```
-© 2026 [logo] · All rights reserved
-© 2026 [logo] · جميع الحقوق محفوظة
+All rights reserved [logo] © 2026
+جميع الحقوق محفوظة [logo] © 2026
 ```
 
 It ships twice from one repository, with the same options and the same output:
@@ -19,7 +19,7 @@ company: name, link, logo, text, year range, colours of the logo and the CSS cla
 ## JavaScript
 
 ```sh
-npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.0.1.tar.gz
+npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.0.2.tar.gz
 ```
 
 ```js
