@@ -11,13 +11,13 @@
         "logo": {
             "light": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
             "dark": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
-            "width": 33,
-            "height": 18
+            "width": 44,
+            "height": 24
         }
     },
     "templates": {
-        "en": "© {year} {logo}. All rights reserved.",
-        "ar": "© {year} {logo}. جميع الحقوق محفوظة."
+        "en": "© {year} {logo} · All rights reserved",
+        "ar": "© {year} {logo} · جميع الحقوق محفوظة"
     },
     "newTabLabels": {
         "en": "{name} (opens in a new tab)",
