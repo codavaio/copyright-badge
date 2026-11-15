@@ -24,12 +24,12 @@ test('the year defaults to the current one', () => {
 test('parts expose the text around the logo and the link', () => {
   const parts = copyrightBadgeParts({ locale: 'ar', year: 2026 })
   assert.equal(parts.before, '© 2026 ')
-  assert.equal(parts.after, '. جميع الحقوق محفوظة.')
+  assert.equal(parts.after, ' · جميع الحقوق محفوظة')
   assert.equal(parts.dir, 'rtl')
   assert.deepEqual(parts.link, { href: 'https://codava.io', target: '_blank', rel: 'noopener noreferrer', label: 'كودافا (يفتح في تبويب جديد)' })
   assert.equal(parts.logo.alt, 'كودافا')
 })
 
 test('an unknown locale falls back to English', () => {
-  assert.equal(copyrightBadgeParts({ locale: 'fr', year: 2026 }).after, '. All rights reserved.')
+  assert.equal(copyrightBadgeParts({ locale: 'fr', year: 2026 }).after, ' · All rights reserved')
 })

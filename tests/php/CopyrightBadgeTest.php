@@ -34,6 +34,6 @@ final class CopyrightBadgeTest extends TestCase
 
     public function test_an_unknown_locale_falls_back_to_english(): void
     {
-        $this->assertSame('. All rights reserved.', CopyrightBadge::parts(['locale' => 'fr', 'year' => 2026])['after']);
+        $this->assertSame(' · All rights reserved', CopyrightBadge::parts(['locale' => 'fr', 'year' => 2026])['after']);
     }
 }
