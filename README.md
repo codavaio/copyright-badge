@@ -20,7 +20,7 @@ company: name, link, logo, text, year range, colours of the logo and the CSS cla
 ## JavaScript
 
 ```sh
-npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.1.0.tar.gz
+npm install https://github.com/codavaio/copyright-badge/archive/refs/tags/v1.1.1.tar.gz
 ```
 
 ```js

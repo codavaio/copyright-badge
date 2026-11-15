@@ -175,7 +175,9 @@ final class CopyrightBadge
 
         $year = (int) ($options['year'] ?? date('Y'));
         $start = isset($options['startYear']) ? (int) $options['startYear'] : 0;
-        $years = $start > 0 && $start < $year ? $start.'–'.$year : (string) $year;
+        $rtl = in_array($locale, $defaults['rtlLocales'], true);
+        // Isolated as left-to-right so a range keeps its order inside right-to-left text.
+        $years = $start > 0 && $start < $year ? ($rtl ? "\u{2066}{$start}–{$year}\u{2069}" : $start.'–'.$year) : (string) $year;
 
         $pieces = explode('{logo}', self::fill(self::localized($template, $locale), [...(array) ($options['values'] ?? []), 'year' => $years, 'name' => $name]));
         $before = array_shift($pieces);
@@ -187,7 +189,7 @@ final class CopyrightBadge
 
         return [
             'locale' => $locale,
-            'dir' => in_array($locale, $defaults['rtlLocales'], true) ? 'rtl' : 'ltr',
+            'dir' => $rtl ? 'rtl' : 'ltr',
             'className' => $className,
             'styles' => (bool) ($options['styles'] ?? $defaults['styles']),
             'year' => $years,

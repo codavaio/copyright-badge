@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1
+
+- A year range keeps its order (2025–2026) in Arabic and other right-to-left text.
+
 ## 1.1.0
 
 - "Developed by" line (`renderDeveloperCredit`, `<x-developer-credit />`) and both lines side by side
