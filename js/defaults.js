@@ -18,8 +18,8 @@ export const defaults = {
     },
     "url": "https://codava.io",
     "logo": {
-      "light": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
-      "dark": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
+      "light": "https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
+      "dark": "https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
       "width": 44,
       "height": 24
     }
@@ -42,8 +42,8 @@ export const defaults = {
     },
     "url": "https://codava.io",
     "logo": {
-      "light": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
-      "dark": "https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
+      "light": "https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png",
+      "dark": "https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png",
       "width": 44,
       "height": 24
     }

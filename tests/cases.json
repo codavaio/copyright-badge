@@ -6,7 +6,7 @@
       "options": {
         "year": 2026
       },
-      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
     },
     {
       "kind": "copyright",
@@ -15,7 +15,7 @@
         "locale": "ar",
         "year": 2026
       },
-      "html": "<span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
     },
     {
       "kind": "copyright",
@@ -25,7 +25,7 @@
         "theme": "dark",
         "year": 2026
       },
-      "html": "<span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
     },
     {
       "kind": "copyright",
@@ -34,7 +34,7 @@
         "theme": "auto",
         "year": 2026
       },
-      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><picture><source srcset=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" media=\"(prefers-color-scheme: dark)\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></picture></a> © 2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><picture><source srcset=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" media=\"(prefers-color-scheme: dark)\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></picture></a> © 2026</span>"
     },
     {
       "kind": "copyright",
@@ -43,7 +43,7 @@
         "year": 2026,
         "startYear": 2024
       },
-      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2024–2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2024–2026</span>"
     },
     {
       "kind": "copyright",
@@ -55,7 +55,7 @@
           "product": "Hasoobi"
         }
       },
-      "html": "<span class=\"copyright-badge\" dir=\"ltr\">Hasoobi © 2026 · <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
+      "html": "<span class=\"copyright-badge\" dir=\"ltr\">Hasoobi © 2026 · <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
     },
     {
       "kind": "copyright",
@@ -137,7 +137,7 @@
           "url": "https://codava.io/products"
         }
       },
-      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io/products\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
+      "html": "<span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io/products\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span>"
     },
     {
       "kind": "developer",
@@ -145,7 +145,7 @@
       "options": {
         "year": 2026
       },
-      "html": "<span class=\"developer-credit\" dir=\"ltr\">Developed by: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
+      "html": "<span class=\"developer-credit\" dir=\"ltr\">Developed by: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
     },
     {
       "kind": "developer",
@@ -154,7 +154,7 @@
         "locale": "ar",
         "theme": "dark"
       },
-      "html": "<span class=\"developer-credit\" dir=\"rtl\">تطوير: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
+      "html": "<span class=\"developer-credit\" dir=\"rtl\">تطوير: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-white-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span>"
     },
     {
       "kind": "developer",
@@ -174,7 +174,7 @@
       "options": {
         "year": 2026
       },
-      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span></span>"
+      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span></span>"
     },
     {
       "kind": "credits",
@@ -191,7 +191,7 @@
           "url": "https://acme.example"
         }
       },
-      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://acme.example\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"أكمي للتجارة (يفتح في تبويب جديد)\">أكمي للتجارة</a> © ⁦2025–2026⁩</span><span class=\"developer-credit\" dir=\"rtl\">تطوير: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span></span>"
+      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"rtl\">جميع الحقوق محفوظة <a href=\"https://acme.example\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"أكمي للتجارة (يفتح في تبويب جديد)\">أكمي للتجارة</a> © ⁦2025–2026⁩</span><span class=\"developer-credit\" dir=\"rtl\">تطوير: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"كودافا (يفتح في تبويب جديد)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"كودافا\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span></span>"
     },
     {
       "kind": "credits",
@@ -200,7 +200,7 @@
         "year": 2026,
         "showDeveloper": true
       },
-      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span><span class=\"developer-credit\" dir=\"ltr\">Developed by: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://assets.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span></span>"
+      "html": "<span class=\"footer-credits\" style=\"display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1.5rem\"><span class=\"copyright-badge\" dir=\"ltr\">All rights reserved <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a> © 2026</span><span class=\"developer-credit\" dir=\"ltr\">Developed by: <a href=\"https://codava.io\" target=\"_blank\" rel=\"noopener noreferrer\" aria-label=\"Codava (opens in a new tab)\" style=\"display:inline-block;vertical-align:middle;line-height:1\"><img src=\"https://cdn.codava.io/brands/v11/main/06-web/dashboard/logo-navy-160w.png\" alt=\"Codava\" width=\"44\" height=\"24\" loading=\"lazy\" decoding=\"async\" style=\"display:inline-block;vertical-align:middle;height:auto;max-width:none\"></a></span></span>"
     },
     {
       "kind": "credits",

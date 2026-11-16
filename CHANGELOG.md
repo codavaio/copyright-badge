@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- The default logos load from `cdn.codava.io`, the new address of the Codava assets.
+
 ## 1.1.1
 
 - A year range keeps its order (2025–2026) in Arabic and other right-to-left text.
